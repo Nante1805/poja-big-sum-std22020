@@ -112,7 +112,7 @@ Resources:
       EventBusName: !GetAtt EventBridgeBus.Name
       EventPattern:
         source:
-          - com.poja.big
+          - com.big.sum
       Targets:
         - Arn: !GetAtt MailboxQueue.Arn
           Id: !Join ['', [!Ref Env, -poja-big-sum, -api-mailbox]]

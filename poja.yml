@@ -4,8 +4,8 @@ custom_java_deps: poja-custom-java-deps.txt
 custom_java_env_vars: poja-custom-java-env-vars.txt
 custom_java_repositories: poja-custom-java-repositories.txt
 frontal_memory: 2048
-jacoco-min-coverage: '0.3'
-package_full_name: com.poja.big
+jacoco-min-coverage: '0.8'
+package_full_name: com.big.sum
 region: eu-west-3
 ses_source: noreply@nowhere.com
 ssm_sg_id: /poja/sg/id
